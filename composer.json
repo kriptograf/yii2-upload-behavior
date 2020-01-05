@@ -25,10 +25,9 @@
     "masterexploder/phpthumb": "*"
   },
   "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
+    { "type": "composer", "url": "https://asset-packagist.org"
+    },
+    { "type": "vcs", "url": "https://github.com/monter08/PHPThumb" }
   ],
   "autoload": {
     "psr-4": {
