@@ -22,11 +22,10 @@
   "require": {
     "php": ">=7.1.0",
     "yiisoft/yii2": "*",
-    "masterexploder/phpthumb": "*"
+    "masterexploder/phpthumb": "2.2"
   },
   "repositories": [
-    { "type": "composer", "url": "https://asset-packagist.org"
-    },
+    { "type": "composer", "url": "https://asset-packagist.org" },
     { "type": "vcs", "url": "https://github.com/monter08/PHPThumb" }
   ],
   "autoload": {
