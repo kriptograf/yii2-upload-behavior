@@ -1,0 +1,38 @@
+{
+  "name": "kriptograf/yii2-upload-behavior",
+  "type": "yii2-extension",
+  "description": "Yii2 file/image upload behavior for ActiveRecord",
+  "keywords": [
+    "file",
+    "image",
+    "upload",
+    "behavior",
+    "resize",
+    "thumb"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kriptograf/yii2-upload-behavior",
+  "authors": [
+    {
+      "name": "Moskvin Vitaliy",
+      "email": "foreach@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "*",
+    "masterexploder/phpthumb": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "kriptograf\\upload\\": "./src"
+    }
+  }
+}
